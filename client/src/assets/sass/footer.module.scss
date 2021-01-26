@@ -1,0 +1,21 @@
+@import "../sass/base-styles/mixins.scss";
+@import "../sass/base-styles/variables.scss";
+
+.container {
+  padding: 60px 120px;
+  background-color: $primaryGray;
+  @include grid(auto auto auto, null);
+
+  ul {
+    li {
+      list-style: none;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 28px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+  }
+}
