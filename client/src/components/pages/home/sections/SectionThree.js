@@ -13,7 +13,7 @@ const SectionThree = () => {
   return (
     <div className={styles.sectionThree}>
       <div className={styles.sectionThree_text}>
-        <img src={circleLine} alt="/" className={styles.circleLine} />
+        <img src={circleLine} alt="circle-line" className={styles.circleLine} />
         <h3>A few highlights from our menu</h3>
         <p>
           We cater for all dietary requirements, but here’s a glimpse at some of
@@ -23,7 +23,7 @@ const SectionThree = () => {
       <div className={styles.sectionThree_images}>
         <div className={styles.wrapper}>
           <div className={styles.image}>
-            <img src={imageOne} alt="image-one" />
+            <img src={imageOne} alt="one" />
             <div className={styles.line}></div>
           </div>
           <div className={styles.text}>
@@ -39,7 +39,7 @@ const SectionThree = () => {
         />
         <div className={styles.wrapper}>
           <div className={styles.image}>
-            <img src={imageTwo} alt="image-two" />
+            <img src={imageTwo} alt="two" />
             <div className={styles.line}></div>
           </div>
           <div className={styles.text}>
@@ -55,7 +55,7 @@ const SectionThree = () => {
         />
         <div className={styles.wrapper}>
           <div className={styles.image}>
-            <img src={imageThree} alt="image-three" />
+            <img src={imageThree} alt="three" />
             <div className={styles.line}></div>
           </div>
           <div className={styles.text}>

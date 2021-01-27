@@ -8,7 +8,7 @@ const Cta = () => {
   return (
     <div className={styles.container}>
       <h3>Ready to make a reservation?</h3>
-      <Button text="Book a table" theme="dark-outlined" />
+      <Button text="Book a table" theme="dark-outlined" route="/booking" />
     </div>
   );
 };

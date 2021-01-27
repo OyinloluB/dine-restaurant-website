@@ -26,7 +26,15 @@ const SectionFour = () => {
             for a special meal with your loved ones. We’ll provide a memorable
             experience for all.
           </p>
-          <Button text="Book a table" theme="dark-filled" />
+          <Button text="Book a table" theme="dark-filled" route="/booking" />
+          <div className={styles.options}>
+            <div className={styles.line}></div>
+            <ul>
+              <li>FAMILY GATHERING</li>
+              <li>SPECIAL EVENTS</li>
+              <li>SOCIAL EVENTS</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

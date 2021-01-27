@@ -299,6 +299,48 @@
         line-height: 30px;
         letter-spacing: -0.225px;
       }
+
+      .options {
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+        margin-top: 10vh;
+
+        .line {
+          height: 0.5px;
+          width: 30%;
+          position: absolute;
+          top: 8%;
+          left: -150px;
+          z-index: -1;
+          background-color: $primaryBrown;
+        }
+
+        ul {
+          margin: 0;
+          padding: 0;
+
+          li {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 28px;
+            letter-spacing: 2px;
+            color: #4c4c4c;
+            mix-blend-mode: normal;
+            list-style: none;
+            opacity: 0.5;
+            padding: 0 0 8px;
+            cursor: pointer;
+
+            &:nth-child(1) {
+              color: #4c4c4c;
+              mix-blend-mode: unset;
+              opacity: unset;
+            }
+          }
+        }
+      }
     }
   }
 }

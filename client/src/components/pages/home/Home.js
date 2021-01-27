@@ -1,6 +1,7 @@
 import React from "react";
 
 // components
+import Cta from "../../shared/cta/Cta";
 import Button from "../../shared/button/Button";
 import SectionOne from "./sections/SectionOne";
 import SectionTwo from "./sections/SectionTwo";
@@ -10,9 +11,6 @@ import Navbar from "../../shared/layout/navigation/Navbar";
 
 // style
 import styles from "../../../assets/sass/home.module.scss";
-
-// images
-
 
 const Home = () => {
   return (
@@ -25,13 +23,14 @@ const Home = () => {
             Experience our seasonal menu in beautiful country surroundings. Eat
             the freshest produce from the comfort of our farmhouse.
           </p>
-          <Button text="Book a table" theme="dark-outlined" />
+          <Button text="Book a table" theme="dark-outlined" route="/booking" />
         </div>
-      </div>
+      </div>  
       <SectionOne />
       <SectionTwo />
       <SectionThree />
       <SectionFour />
+      <Cta />
     </div>
   );
 };
