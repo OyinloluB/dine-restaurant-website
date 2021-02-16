@@ -21,7 +21,7 @@ const Home = () => {
           <h1>Exquisite dining since 1989</h1>
           <p>
             Experience our seasonal menu in beautiful country surroundings. Eat
-            the freshest produce from the comfort of our farmhouse.
+            the freshest produce from the comfort of our farmhouse..
           </p>
           <Button text="Book a table" theme="dark-outlined" route="/booking" />
         </div>
